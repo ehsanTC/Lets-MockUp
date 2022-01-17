@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCall", "ServiceCall\ServiceCall.csproj", "{AEA0D25B-08B5-455F-B8F4-4D41F92D0662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceProxy", "ServiceProxy\ServiceProxy.csproj", "{EDE2C506-77F9-45E8-AB41-5D1F9E3CCE54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEA0D25B-08B5-455F-B8F4-4D41F92D0662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA0D25B-08B5-455F-B8F4-4D41F92D0662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA0D25B-08B5-455F-B8F4-4D41F92D0662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA0D25B-08B5-455F-B8F4-4D41F92D0662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE2C506-77F9-45E8-AB41-5D1F9E3CCE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE2C506-77F9-45E8-AB41-5D1F9E3CCE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE2C506-77F9-45E8-AB41-5D1F9E3CCE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE2C506-77F9-45E8-AB41-5D1F9E3CCE54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAE1D0DC-D8C5-42F9-81CE-030B2A4FFBA2}
+	EndGlobalSection
+EndGlobal

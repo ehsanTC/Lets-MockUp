@@ -1,0 +1,38 @@
+[
+  {
+    "name": "JSONPlaceholder",
+    "base_url": "https://jsonplaceholder.typicode.com/",
+    "apis": [
+      {
+        "url": "/posts",
+        "http_verb": "get",
+        "required_fields": [],
+        "response": [
+          {
+            "userId": 1,
+            "id": 1,
+            "title": "post #1",
+            "body": "It's rainy today'"
+          },
+          {
+            "userId": 1,
+            "id": 2,
+            "title": "post #2",
+            "body": "It's sunny today'"
+          }
+        ]
+      },
+      {
+        "url": "/posts/{integer}",
+        "http_verb": "get",
+        "required_fields": [],
+        "response": {
+          "userId": 1,
+          "id": 1,
+          "title": "post #1",
+          "body": "It's rainy today'"
+        }
+      }
+    ]
+  }
+]
